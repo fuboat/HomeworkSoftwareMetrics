@@ -10,4 +10,6 @@
 [submodule "fuzzing/projectFiles/7_TheAlgorithmsC"]
 	path = fuzzing/projectFiles/7_TheAlgorithmsC
 	url = https://github.com/TheAlgorithms/C.git
-
+[submodule "fuzzing/projectFiles/9_iostream"]
+	path = fuzzing/projectFiles/9_iostream
+	url = https://github.com/fuboat/gcc_fork.git
