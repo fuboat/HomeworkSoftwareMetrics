@@ -1,4 +1,15 @@
-# 各项目版本
+# 动态模糊测试工具
+
+工具目录位于 [fuzzing/tools](fuzzing/tools)。
+
+| 编号 | 工具名称 | 版本   |
+| ---- | -------- | ------ |
+| 1    | AFL      | v2.57b |
+| 2    | MOpt     | master |
+
+# 受测项目版本
+
+受测项目目录位于 [fuzzing/projectFiles](fuzzing/projectFiles)。
 
 | 编号  | 项目名称       | 版本               |
 | ----- | -------------- | ------------------ |
@@ -12,3 +23,4 @@
 | 8     | spdlog         | v1.11.0            |
 | 9     | iostream       | releases/gcc-13    |
 | x(10) | libqalculate   | v4.6.1             |
+
