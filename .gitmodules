@@ -28,3 +28,9 @@
 [submodule "fuzzing/projectFiles/X_libqalculate"]
 	path = fuzzing/projectFiles/X_libqalculate
 	url = https://github.com/Qalculate/libqalculate.git
+[submodule "fuzzing/tools/1_afl"]
+	path = fuzzing/tools/1_afl
+	url = https://github.com/google/AFL.git
+[submodule "fuzzing/tools/2_mopt"]
+	path = fuzzing/tools/2_mopt
+	url = https://github.com/puppet-meteor/MOpt-AFL.git
