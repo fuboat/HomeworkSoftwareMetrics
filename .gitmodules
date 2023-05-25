@@ -1,0 +1,13 @@
+[submodule "fuzzing/projectFiles/1_sqlite"]
+	path = fuzzing/projectFiles/1_sqlite
+	url = https://github.com/sqlite/sqlite.git
+[submodule "fuzzing/projectFiles/3_yaml-cpp"]
+	path = fuzzing/projectFiles/3_yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "fuzzing/projectFiles/5_libpostal"]
+	path = fuzzing/projectFiles/5_libpostal
+	url = https://github.com/openvenues/libpostal
+[submodule "fuzzing/projectFiles/7_TheAlgorithmsC"]
+	path = fuzzing/projectFiles/7_TheAlgorithmsC
+	url = https://github.com/TheAlgorithms/C.git
+
