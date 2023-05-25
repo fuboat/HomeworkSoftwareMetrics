@@ -1,0 +1,2 @@
+the logger is tested by test1.txt!
+
