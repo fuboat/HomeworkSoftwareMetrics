@@ -13,3 +13,18 @@
 [submodule "fuzzing/projectFiles/9_iostream"]
 	path = fuzzing/projectFiles/9_iostream
 	url = https://github.com/fuboat/gcc_fork.git
+[submodule "fuzzing/projectFiles/2_libpng"]
+	path = fuzzing/projectFiles/2_libpng
+	url = https://android.googlesource.com/platform/external/libpng
+[submodule "fuzzing/projectFiles/4_libmpeg2"]
+	path = fuzzing/projectFiles/4_libmpeg2
+	url = https://android.googlesource.com/platform/external/libmpeg2
+[submodule "fuzzing/projectFiles/6_cJSON"]
+	path = fuzzing/projectFiles/6_cJSON
+	url = https://github.com/DaveGamble/cJSON.git
+[submodule "fuzzing/projectFiles/8_spdlog"]
+	path = fuzzing/projectFiles/8_spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "fuzzing/projectFiles/X_libqalculate"]
+	path = fuzzing/projectFiles/X_libqalculate
+	url = https://github.com/Qalculate/libqalculate.git
