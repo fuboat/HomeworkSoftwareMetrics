@@ -1,0 +1,5 @@
+/fuzzing/build
+/fuzzing/fuzzTargets
+/fuzzing/results
+/fuzzing/_history
+.vscode

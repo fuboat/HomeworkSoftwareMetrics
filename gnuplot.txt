@@ -1,0 +1,22 @@
+set terminal png truecolor enhanced size 600,300 butt
+
+set output '/tmp/1.png'
+
+set xdata time
+set timefmt '%s'
+set format x "%b %d\n%H:%M"
+set tics font 'small'
+unset mxtics
+unset mytics
+
+set grid xtics linetype 0 linecolor rgb '#e0e0e0'
+set grid ytics linetype 0 linecolor rgb '#e0e0e0'
+set border linecolor rgb '#50c0f0'
+set tics textcolor rgb '#000000'
+set key outside
+
+set autoscale xfixmin
+set autoscale xfixmax
+
+plot './1_sqlite_mopt_driver_1/plot_data' using 1:($7*65536/100) with lines title 'MOpt edges' linecolor rgb '#c000f0' linewidth 3, \
+     './1_sqlite_afl_driver_1/plot_data'  using 1:($7*65536/100) with lines title 'AFL edges' linecolor rgb '#0090ff' linewidth 3

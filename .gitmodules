@@ -34,3 +34,9 @@
 [submodule "fuzzing/tools/2_mopt"]
 	path = fuzzing/tools/2_mopt
 	url = https://github.com/puppet-meteor/MOpt-AFL.git
+[submodule "fuzzing/tools/3_libzafl"]
+	path = fuzzing/tools/3_libzafl
+	url = https://git.zephyr-software.com/opensrc/libzafl.git
+[submodule "fuzzing/tools/AFLplusplus"]
+	path = fuzzing/tools/AFLplusplus
+	url = https://github.com/AFLplusplus/AFLplusplus.git
